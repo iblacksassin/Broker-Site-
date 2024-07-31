@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Trade Company</title>
+    <link rel="stylesheet" href="crypto.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 class="h1">Eco Trading Company</h1>
+        </div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <ul>
+                <li class="current"><a href="withdraw.html">Withdraw</a></li>
+                <li><a href="deposit.html">Deposit</a></li>
+                <li><a href="homepage.html">Dashboard</a></li>
+                <li><a href="Ponzy.html">Menu</a></li>
+                <li><a href="invest.html">Invest</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="signup.html">Log out</a></li>
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </header>
+
+   <div class="plans">
+    <div class="plan">
+        <h1>Request Withdraw</h1><br>
+        <p>Your Payment Method is USDT (TRC20)</p><br>
+        <input type="text" placeholder="Enter Amount"><br>
+        <p>Enter USDT (TRC20) Address</p>
+        <input type="text" placeholder="Enter USDT (TRC20) Address"><br><br>
+        Please enter correct wallet address to recieve your funds. <br><br>
+        <button class="button" id="open-popon-btn1">Complete Request</button>
+    </div>
+
+   <div class="popon centered">
+    <div class="icon">
+        !
+    </div>
+    <div class="title">
+        Pending!!
+    </div>
+    <div class="description">
+        Your request to withdraw has is currently been reviewed 
+        and would be sent to your wallet address shortly.
+        <br><br>
+        <a class="btttn" href="homepage.html">Done</a>
+    </div>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

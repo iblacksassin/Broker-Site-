@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Trade Company</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 class="h1">Eco Trading Company</h1>
+        </div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <ul>
+                <li class="current"><a href="profile.html">Profile</a></li>
+                <li><a href="Ponzy.html">Menu</a></li>
+                <li><a href="homepage.html">Dashboard</a></li>
+                <li><a href="withdraw.html">Withdraw</a></li>
+                <li><a href="deposit.html">Deposit</a></li>
+                <li><a href="invest.html">Invest</a></li>
+                <li><a href="signup.html">Log out</a></li>
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </header>
+
+    <div id="profile">
+        <div class="profile">
+            <h1>Personal Settings</h1>
+        </div>
+
+        <div class="info">
+            <div class="change_profile">
+                <p>Full Name</p>
+                <input type="text" placeholder="Fullname" required>
+                <p>Change Username</p>
+                <input type="text" placeholder="@username" required>
+                <p>Email Address</p>
+                <input type="email" placeholder="Enter email" required>
+                <p>Phone Number</p>
+                <input type="number" placeholder="Enter phone number" required>
+           </div>
+     
+           <div class="password">
+                <p>Change Password</p>
+                <input type="password" placeholder="old password" required><br><br>
+                <input type="password" placeholder="new password" required>
+                <p>Confirm New Password</p>
+                <input type="password" placeholder="Confirm new password" required>
+           </div>
+        </div>
+        <div class="submit">
+            <button class="button"><a href="homepage.html">Update Profile</a></button>
+        </div>
+   </div>
+
+    <footer>
+        <p>Copyright &copy;Eco Trade Company 419</p>
+    </footer>
+       
+</body>
+</html>

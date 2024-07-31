@@ -1,0 +1,512 @@
+body{
+    padding: 0;
+    margin:0;
+    background:black;
+}
+/* Header */
+header{
+    width: 92.5%;
+    height: 80px;
+    background: rgb(0, 0, 0);
+    position: relative  ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    border-bottom: 20px;
+    border-bottom: blue 3px solid;
+}
+.header{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7rem;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 2px;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: Arial;
+    padding: 6px 15px;
+    transition: 0.2s;
+    border-radius: 30px;
+}
+nav ul li a:hover{
+    background: rgb(46, 46, 243);
+    color: white;
+}
+nav ul li a.current{
+    background: blue;
+    color: white;
+    list-style: none;
+}
+.hamburger{
+    display: none;
+    height: fit-content;
+    cursor: pointer;
+    padding: 3px 8px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.hamburger:hover{
+    background: rgba(0, 0, 0, 0.35);
+}
+.hamburger div{
+    width: 30px;
+    height: 2px;
+    margin: 6px 0;
+    background: white;
+}
+/* dashboard */
+.dashboard{
+    background: rgb(11, 11, 12);
+    color: white;
+    border-radius: 30px;
+    width: 600px;
+    text-align: center;
+    padding: 70px;
+    margin-left: 200px;
+    margin-right: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.box{
+    border-color: blue;
+    background:  rgb(11, 11, 12);
+    border-radius: 0;
+    border-style: groove;
+    border-width: thin;
+    width: fit-content;
+
+}
+.crypto{
+    width:110px;
+    height: 40px;
+    background: black;
+    border-radius: 10px;
+}
+input{
+    width: 250px;
+    text-align: center;
+    background: transparent;
+    border-style:groove;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: blue;
+    background: black;
+    color: white;
+    padding: 10px;
+    transition: 3s;
+    outline: none;
+    margin-top: 10px;
+}
+select{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border-style:groove;
+    border-width: 2px;
+    border-color: blue;
+    background: black;
+    color: white;
+    padding: 10px;
+    transition: 3s;
+    outline: none;
+    margin-top: 10px;
+}
+.dashs{
+    padding: 10px;
+    color: white;
+}
+.mains{
+    padding: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: blue;
+}
+.deposits{
+    padding: 20px;
+}
+.dash{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    align-items:center;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    color: white;
+}
+.account{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items:center;
+    justify-content: center;
+    gap: 6rem;
+}
+#section{
+    padding: 10px;
+    background: rgba(0, 0, 124, 0.505);
+    width: 15rem;
+    color: white;
+    text-align: center;
+    height: 6rem;
+    border-radius: 20px;
+}
+.Fund{
+    padding: 20px;
+}
+.span{
+    font-size: 1.6rem;
+    color: blue;
+}
+.deposit{
+    background: rgb(13, 13, 13);
+    color: blue;
+    border-radius: 30px;
+    width: 30px;
+    height: 35rem;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+}
+.main{
+    padding: 6px;
+    margin: auto;
+    margin-bottom: -8rem;
+}
+.box{
+    color: white;
+    padding: 10px;
+    width: 18rem;
+    margin: auto;
+}
+button{
+    width: 100px;
+    text-align: center;
+    border: none;
+    height: 70px;
+    background: blue;
+    border-radius: 20px;
+    cursor: pointer;
+    border-width: .1rem;
+}
+button:hover{
+    background: white;
+    color: blue;
+}
+.button{
+    width: 7rem;
+    height: 3rem;
+    background: blue;
+    color: white;
+}
+.bttn{
+    width: 6rem;
+    height: 3rem;
+    background: blue;
+    border-radius: 20px;
+    color: white;
+}
+.copy{
+    width:fit-content;
+    height: fit-content;
+    background: blue;
+    border-radius: 0;
+    color: white;
+}
+#profile{
+    padding: 20px;
+}
+.profile{
+    color: white;
+    font-size: .8rem;
+}
+.info{
+    padding: 10px;
+    display: flex;
+    gap: 7rem;
+}
+.change_profile{
+    background: rgb(11, 11, 12);
+    color: blue;
+    border-radius: 30px;
+    width: 25rem;
+    padding: 18px;
+    text-transform: none;
+    font-size: .9rem;
+    margin-top: 20px;
+}
+.change_profile input{
+    width: 18rem;
+    height: .3rem;
+}
+.password{
+    background: rgb(11, 11, 12);
+    color: blue;
+    border-radius: 30px;
+    width: 20rem;
+    height: 15rem;
+    padding: 18px;
+    font-size: .8rem;
+    margin-top: 20px;
+}
+.password input{
+    width: 18rem;
+    height: .3rem;
+}
+.submit{
+    margin-left: 1.5rem;
+}
+.plans{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 27rem);
+    align-items:center;
+    justify-content: center;
+    gap: 7rem;
+    list-style: none;
+}
+.plan{
+    color: white;
+    text-align: center;
+    border-color: blue;
+    border-radius: 30px;
+    padding: 25px;
+    width: 19rem;
+    border-style: dashed;
+}
+/* footer */
+.current{
+    background: blue;
+    width: 6rem;
+    border-radius: 20px;
+}
+.current:hover{
+    background: white;
+    color: blue;
+}
+/*toast*/
+.dashs{
+    padding: 10px;
+    color: white;
+}
+.mains{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+a:hover{
+    color: blue;
+}
+.page{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+}
+.span{
+    font-size: 1.6rem;
+    color: blue;
+}
+.buttn{
+    width: 100px;
+    text-align: center;
+    border: none;
+    height: 20px;
+    padding: 10px;
+    background: blue;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.buttn:hover{
+    background: white;
+    color: blue;
+}
+span{
+    font-size: .8rem;
+}
+/*currencies*/
+.funding{
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+}
+.currencies{
+    background: rgb(12, 12, 12);
+    width: 45rem;
+    height: 60vh;
+    padding: 10px;
+    text-align: start;
+}
+.currencies input{
+    width: 25rem;
+}
+.currencies button{
+    display:inline;
+}
+.listing{
+    display: flex;
+    gap: 1rem;
+}
+ /**media query*/
+
+
+@media only screen and (max-width: 800px) {
+    header{
+        width: 93%;
+        padding: 0 20px;
+        position: fixed;
+    }
+    .h1{
+        font-size: 1rem;
+    }
+    nav{
+        position: absolute;
+        left: -300px;
+        top: 0;
+        z-index: 999;
+        width: 280px;
+        height: 100vh;
+        background-color: black;
+        transition: 0.2s;
+        border-right: 3px blue solid;
+    }
+    #nav_check:checked ~ nav{
+        left: 0;
+    }
+    nav .header{
+        display: block;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+    }
+    nav ul li a{
+        margin-bottom: 5px;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    nav ul {
+        display: block;
+        padding: 0 20px;
+        margin-top: 30px;
+        list-style: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .profile{
+        color: white;
+        font-size: .7rem;
+    }
+    .info{
+        display:inline;
+    }
+    .change_profile{
+        background: rgb(11, 11, 12);
+        color: blue;
+        border-radius: 30px;
+        width: 20rem;
+        margin: auto;
+        padding: 18px;
+        text-transform: none;
+        font-size: .9rem;
+    }
+    .change_profile input{
+        width: 18rem;
+        height: .3rem;
+    }
+    .password{
+        background: rgb(11, 11, 12);
+        color: blue;
+        border-radius: 30px;
+        width: 20rem;
+        height: 15rem;
+        padding: 18px;
+        font-size: .9rem;
+        margin-top: 20px;
+    }
+    .password input{
+        width: 18rem;
+        height: .3rem;
+    }
+    .submit{
+        margin-top: -.4rem;
+        margin-left: 1rem;
+    }
+
+    .funding{
+        background: rgb(0, 0, 0);
+        color: white;
+        padding: 20px;
+    }
+    .currencies{
+        background: rgb(12, 12, 12);
+        width: 20rem;
+        height: 37vh;
+        padding: 10px;
+        text-align: start;
+        margin: auto;
+    }
+    .currencies input{
+        width: 17rem;
+    }
+    .currencies button{
+        display:inline;
+        width: 6rem;
+    }
+    .account{
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items:center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    #section{
+        padding: 10px;
+        background: rgba(0, 0, 124, 0.505);
+        width: 8rem;
+        color: white;
+        font-size: .7rem;
+        text-align: center;
+        height: 4rem;
+        border-radius: 20px;
+    }
+    .plans{
+        padding: 30px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 22rem);
+        align-items:center;
+        justify-content: center;
+        gap: 7rem;
+        list-style: none;
+    }
+    .plan{
+        color: white;
+        text-align: center;
+        border-color: blue;
+        border-radius: 30px;
+        padding: 25px;
+        width: 19rem;
+        border-style: dashed;
+    }
+}

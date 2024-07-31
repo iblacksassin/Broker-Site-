@@ -1,0 +1,440 @@
+body{
+    padding: 0;
+    margin:0;
+    background:black;
+}
+header{
+    width: 92.5%;
+    height: 80px;
+    background: rgb(0, 0, 0);
+    position: relative  ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    border-bottom: 20px;
+    border-bottom: blue 3px solid;
+}
+.header{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7rem;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin: 0 2px;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: Arial;
+    padding: 6px 15px;
+    transition: 0.2s;
+    border-radius: 30px;
+}
+nav ul li a:hover{
+    background: rgb(46, 46, 243);
+}
+nav ul li a.current{
+    background: blue;
+    color: white;
+}
+.hamburger{
+    display: none;
+    height: fit-content;
+    cursor: pointer;
+    padding: 3px 8px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.hamburger:hover{
+    background: rgba(0, 0, 0, 0.35);
+}
+.hamburger div{
+    width: 30px;
+    height: 2px;
+    margin: 6px 0;
+    background: white;
+}
+.deposit{
+    background: rgb(13, 13, 13);
+    color: blue;
+    border-radius: 30px;
+    width: 330px;
+    height: 33rem;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.dash{
+    padding: 10px;
+    align-items:center;
+    justify-content: center;
+    list-style: none;
+    color: white;
+}
+.main{
+    color: white;
+    padding: 15px;
+    margin: auto;
+}
+button{
+    width: 100px;
+    text-align: center;
+    border: none;
+    height: 70px;
+    background: blue;
+    border-radius: 20px;
+    cursor: pointer;
+    border-width: .1rem;
+}
+button:hover{
+    background: white;
+    color: blue;
+}
+.button{
+    width: 7rem;
+    height: 3rem;
+    background: blue;
+    color: white;
+
+}
+.bttn{
+    width: 6rem;
+    height: 3rem;
+    background: blue;
+    border-radius: 20px;
+    color: white;
+}
+.copy{
+    width:fit-content;
+    height: fit-content;
+    background: blue;
+    border-radius: 0;
+    color: white;
+}
+input{
+    width: 200px;
+    text-align: center;
+    background: transparent;
+    border-style:groove;
+    border-radius: 20px;
+    border-width: 2px;
+    margin-bottom: 1rem;
+    border-color: blue;
+    background: black;
+    color: white;
+    padding: 10px;
+    transition: 3s;
+    outline: none;
+}
+.box{
+    border: 2px black solid;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 17rem;
+    font-size: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+.boxs{
+    border: 5px rgb(13, 13, 13) solid;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 18rem;
+    font-size: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+footer{
+    background: black;
+    border-top:blue 5px solid;
+    text-align: center;
+    text-decoration: solid;
+    color: white ;
+}
+.plans{
+    padding: 30px;
+}
+.plan{
+    margin: auto;
+    color: white;
+    text-align: center;
+    border-color: blue;
+    border-radius: 30px;
+    padding: 25px;
+    width: 19rem;
+    border-style: dashed;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.popup{
+    width: 350px;
+    height: 280px;
+    padding: 30px 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-sizing: border-box;
+    z-index: 2;
+    text-align: center;
+    top: -200%;
+    transform: translate(-50%, -50%) scale(0.5);
+    transition: opacity 300ms ease-in-out, top 1000ms ease-in-out, transform 1000ms ease-in-out;
+}
+.popup.active{
+    opacity: 1;
+    top: 140%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 300ms cubic-bezier(0.18,0.89,0.43,1.19);
+}
+.popup .icon{
+    margin: 5px 0px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid red;
+    background: white;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 2rem;
+    color: red;
+}
+.popup .title{
+    margin: 5px 0px;
+    font-size: 30px;
+    font-weight: 600;
+    background: white;
+}
+.popup .description{
+    background: white;
+    font-size: 15px;
+    padding: 5px;
+}
+.popup .btttn {
+    padding: 10px;
+    background: blue;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+/*withdraw*/
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.popon{
+    width: 350px;
+    height: 280px;
+    padding: 30px 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-sizing: border-box;
+    z-index: 2;
+    text-align: center;
+    top: -200%;
+    transform: translate(-50%, -50%) scale(0.5);
+    transition: opacity 300ms ease-in-out, top 1000ms ease-in-out, transform 1000ms ease-in-out;
+}
+.popon.active{
+    opacity: 1;
+    top: 80%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 300ms cubic-bezier(0.18,0.89,0.43,1.19);
+}
+.popon .icon{
+    margin: 5px 0px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid red;
+    background: white;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 2rem;
+    color: red;
+}
+.popon .title{
+    margin: 5px 0px;
+    font-size: 30px;
+    font-weight: 600;
+    background: white;
+}
+.popon .description{
+    background: white;
+    font-size: 15px;
+    padding: 5px;
+}
+.popon .btttn{
+    background: blue;
+    padding: 13px;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+@media only screen and (max-width: 900px) {
+    header{
+        width: 80%;
+    }
+    h1{
+        font-size: 1.1rem;
+    }
+    nav{
+        position: absolute;
+        left: -300px;
+        top: 0;
+        z-index: 999;
+        width: 280px;
+        height: 100vh;
+        background-color: black;
+        transition: 0.2s;
+        border-right: 3px blue solid;
+    }
+    #nav_check:checked ~ nav{
+        left: 0;
+    }
+    nav .header{
+        display: block;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+    }
+    nav ul li a{
+        margin-bottom: 5px;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    nav ul {
+        display: block;
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+    .hamburger{
+        display: block;
+    }
+    .plans{
+        padding: 30px;
+    }
+    .plan{
+        margin: auto;
+        color: white;
+        text-align: center;
+        border: blue 3px solid;
+        border-radius: 30px;
+        padding: 25px;
+        width: 17rem;
+    }
+    .center{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .popup{
+        width: 350px;
+        height: 280px;
+        padding: 30px 20px;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        box-sizing: border-box;
+        z-index: 2;
+        text-align: center;
+        top: -200%;
+        transform: translate(-50%, -50%) scale(0.5);
+        transition: opacity 300ms ease-in-out, top 1000ms ease-in-out, transform 1000ms ease-in-out;
+    }
+    .popup.active{
+        opacity: 1;
+        top: 78%;
+        transform: translate(-50%, -50%) scale(1);
+        transition: transform 300ms cubic-bezier(0.18,0.89,0.43,1.19);
+    }
+    .popup .icon{
+        margin: 5px 0px;
+        width: 50px;
+        height: 50px;
+        border: 2px solid red;
+        background: white;
+        text-align: center;
+        display: inline-block;
+        border-radius: 50%;
+        line-height: 50px;
+        font-size: 2rem;
+        color: red;
+    }
+    .popup .title{
+        margin: 5px 0px;
+        font-size: 30px;
+        font-weight: 600;
+        background: white;
+    }
+    .popup .description{
+        background: white;
+        font-size: 15px;
+        padding: 5px;
+    }
+    /*withdraw*/
+
+    .centered{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .popon{
+        width: 350px;
+        height: 280px;
+        padding: 30px 20px;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        box-sizing: border-box;
+        z-index: 2;
+        text-align: center;
+        top: -200%;
+        transform: translate(-50%, -50%) scale(0.5);
+        transition: opacity 300ms ease-in-out, top 1000ms ease-in-out, transform 1000ms ease-in-out;
+    }
+    .popon.active{
+        opacity: 1;
+        top: 46%;
+        transform: translate(-50%, -50%) scale(1);
+        transition: transform 300ms cubic-bezier(0.18,0.89,0.43,1.19);
+    }
+    .popon .icon{
+        margin: 5px 0px;
+        width: 50px;
+        height: 50px;
+        border: 2px solid red;
+        background: white;
+        text-align: center;
+        display: inline-block;
+        border-radius: 50%;
+        line-height: 50px;
+        font-size: 2rem;
+        color: red;
+    }
+    .popon .title{
+        margin: 5px 0px;
+        font-size: 30px;
+        font-weight: 600;
+        background: white;
+    }
+    .popon .description{
+        background: white;
+        font-size: 15px;
+        padding: 5px;
+    }
+}

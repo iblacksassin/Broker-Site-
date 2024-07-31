@@ -1,0 +1,893 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    padding: 0;
+    margin:0;
+    background:black;
+}
+/* Header */
+header{
+    width: 92.5%;
+    height: 85px;
+    background: rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    border-bottom: 20px;
+    border-bottom: blue 3px solid;
+}
+.header{
+    color: blue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .7rem;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 2px;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: Arial;
+    padding: 6px 15px;
+    transition: 0.2s;
+    border-radius: 30px;
+}
+nav ul li a:hover{
+    background: rgb(46, 46, 243);
+    color: white;
+}
+nav ul li a.current{
+    background: blue;
+    color: white;
+    list-style: none;
+}
+.hamburger{
+    display: none;
+    height: fit-content;
+    cursor: pointer;
+    padding: 3px 8px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.hamburger:hover{
+    background: rgba(0, 0, 0, 0.35);
+}
+.hamburger div{
+    width: 30px;
+    height: 2px;
+    margin: 6px 0;
+    background: white;
+}
+
+/* get started*/
+button{
+    height: 38px;
+    background:rgb(0, 0, 0);
+    border: 10px;
+    border-style:dashed;
+    border-width: 2px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: blue;
+    margin-bottom: 10px;
+}
+button:hover{
+    background:  white;
+    color: blue;
+}
+.pan{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.6rem;
+
+}
+section{
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(chart.jpg);
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+.contain{
+    background: rgba(0, 0, 255, 0.291);
+    width: 100%;
+    height: 120vh;
+}
+
+@keyframes animate {
+    0%{
+        background-image: url(2856258_ab03_2.jpg);
+    }
+    20%{
+        background-image: url(lptchrt.jpg);
+    }
+    40%{
+        background-image: url(1_5hks5c7coEa_TvXSLKfu2A.jpg);
+    }
+    60%{
+        background-image: url(chart.jpg);
+    }
+    80%{
+        background-image: url(0_Vq4k5t_bVvGrBJtS.jpg);
+    }
+    100%{
+        background-image: url(2856258_ab03_2.jpg);
+    }
+}
+
+
+.capital{
+    padding-top: 7rem;
+}
+.cap{
+    width: 45rem;
+    margin: auto;
+    justify-self: center;
+}
+.collect{
+    padding: 20px;
+    top: 15%;
+}
+.getstarted {
+    text-align: center;
+    text-decoration: solid;
+    color: rgb(255, 255, 255) ;
+}
+#start{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
+#start a{
+    color: blue;
+}
+#span{
+    font-size: 1.2rem;
+    list-style: none;
+    color: white;
+    text-align: center;
+    background: rgba(1, 1, 51, 0.725);
+    border-radius: 10px;
+    padding: 25px;
+}
+.span{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: blue;
+}
+span{
+    color: blue;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.about{
+    margin-top: 5rem;
+    padding: 10px;
+    background: rgb(4, 4, 4);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: blue;
+}
+.icon{
+    float: left;
+    width: 95%;
+}
+.more{
+    color: white;
+    float: right;
+    font-size: 1rem;
+    width: 45%;
+}
+.aboutus{
+    color: rgb(255, 255, 255) ;
+    font-size: 1.1rem;
+    width: 50%;
+    padding: 20px;
+} 
+.about_us{
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.aboutus li{
+    list-style: none;
+}
+.top{
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+.getstarted{
+    padding: 10px;
+}
+.start{
+    padding: 10px;
+    font-size: 1rem;
+}
+.features{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+    margin-bottom: 10rem;
+}
+.feat{
+    padding: 10px;
+    color: white;
+    font-size: 1rem;
+    list-style: none;
+    text-align:start;
+    background: rgb(9, 9, 9);
+    border-radius: 10px;
+    padding: 25px;
+}
+.spn{
+    color: rgba(0, 0, 255, 0.709);
+    font-size: 1.7rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.trading{
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+}
+#counter{
+    background: url(1_5hks5c7coEa_TvXSLKfu2A.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-position: 70%;
+    color: blue;
+    margin-bottom: 5rem;
+}
+.counter_wrapper{
+    background: rgba(0, 0, 255, 0.291);
+    width: 100%;
+    height: 50vh;
+}
+.counter{
+    display: flex;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+span{
+    font-size: 3rem;
+}
+h1{
+    font-size: 1.5rem;
+    color: blue;
+}
+.count{
+    font-size: 2.5rem;
+    color: blue;
+}
+#safety{
+    text-align: center;
+    color: white;
+}
+.safety{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+.safe{
+    padding: 10px;
+    color: white;
+    font-size: 1rem;
+    list-style: none;
+    background: rgb(12, 12, 12);
+    text-align:start;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    background:url(chrt.png);
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+    color:rgb(255, 255, 255) ;
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    background: rgba(0, 0, 255, 0.291);
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    background-size: cover;
+}
+.cont{
+    padding: 10px;
+}
+/*review*/
+.slide-container{
+  position: relative;
+  max-width: 1120px;
+  width: 100%;
+  padding: 50px 0;
+}
+.slide-content{
+  margin: 0 70px;
+  overflow: hidden;
+  border-radius: 25px;
+  padding: 40px;
+}
+.card{
+  border-radius: 25px;
+  background-color: black;
+  border: blue 3px solid;
+}
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+}
+.overlay::after{
+  border-radius: 0 25px 0 0;
+  background-color: black;
+}
+.card-image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: blue;
+  padding: 3px;
+}
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: black 3px solid;
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+.description{
+  font-size: .8rem;
+  color: white;
+  text-align: center;
+}
+.button{
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: blue;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  background: #265DF2;
+}
+
+.swiper-navBtn{
+  color: blue;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+  color: #4070F4;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: blue;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #4070F4;
+}
+
+
+/* investment*/
+.profit{
+    margin-top: 1rem;
+    text-align: center;
+    color: rgb(255, 255, 255) ;
+    list-style: none;
+    padding: 10px;
+}
+.services{
+    padding: 10px;
+    color: white;
+    margin-top: 5rem;
+    margin: auto;
+    font-size: 1rem;
+    text-align: center;
+}
+.plans{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 17rem);
+    align-items: flex-end;
+    justify-content: center;
+    gap: 4rem;
+    list-style: none;
+    margin-top: 7rem;
+    padding: 25px;
+    margin: auto;
+}
+.plan{
+    list-style: none;
+    color: white;
+    text-align: center;
+    border-color: blue;
+    border-radius: 30px;
+    padding: 25px;
+    width: 15rem;
+    border-style: dashed;
+}
+li{
+    font-size: 1rem;
+}
+.trade{
+    padding: 30px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.invest{
+    font-size: 1.5rem;
+    list-style: none;;
+    text-align: center;
+    margin: auto;
+}
+.review{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+}
+.page-title{
+    background: black;
+    color: blue;
+    padding: 20px;
+}
+.logo{
+    width: 20px;
+}
+
+footer{
+    background: blue;
+}
+.foot{
+    position: relative;
+    display: flex;
+    padding: 10px;
+}
+.footer{
+    width: 25rem;
+    text-align: start;
+    font-size: 1.1rem;
+    padding: 20px;
+}
+.list li{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    font-size: 1rem;
+}
+.list{
+    padding: 20px;
+    width: 10rem;
+    text-align: center;
+    justify-content: center;
+}
+.contact{
+    text-align: center;
+    text-decoration: solid;
+    color: rgb(71, 63, 63) ;
+    font-size: 1.2rem;
+}
+.last{
+    border-top: black 2px solid;
+    text-align: center;
+    padding: 20px;
+}
+
+ /**media query*/
+@media only screen and (max-width: 967px) {
+    header{
+        width: 93%;
+        padding: 0 20px;
+        position: fixed;
+    }
+    nav{
+        position: absolute;
+        left: -300px;
+        top: 0;
+        z-index: 999;
+        width: 280px;
+        height: 100vh;
+        background-color: black;
+        transition: 0.2s;
+        border-right: 3px blue solid;
+    }
+    #nav_check:checked ~ nav{
+        left: 0;
+    }
+    nav .header{
+        display: block;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+    }
+    nav ul li a{
+        margin-bottom: 5px;
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    nav ul {
+        display: block;
+        padding: 0 20px;
+        margin-top: 30px;
+        list-style: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .pan{
+        color: white;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2.5rem;
+    }
+    .cap{
+        width: 22rem;
+        margin: auto;
+        justify-self: center;
+    }
+    .collect{
+        padding: 1  0px;
+    }
+    section{
+        color: white;
+        text-align: center;
+        font-size: 1.3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background: url(chart.jpg);
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        transition: 5s;
+    
+        animation-name: animate;
+        animation-direction: alternate-reverse;
+        animation-duration: 30s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+        animation-timing-function: ease-in-out;
+    }
+    .contain{
+        background: rgba(0, 0, 255, 0.291);
+        width: 100%;
+        height: 100vh;
+    }
+    @keyframes animate {
+    0%{
+        background-image: url(2856258_ab03_2.jpg);
+    }
+    20%{
+        background-image: url(lptchrt.jpg);
+    }
+    40%{
+        background-image: url(1_5hks5c7coEa_TvXSLKfu2A.jpg);
+    }
+    60%{
+        background-image: url(chart.jpg);
+    }
+    80%{
+        background-image: url(0_Vq4k5t_bVvGrBJtS.jpg);
+    }
+    100%{
+        background-image: url(2856258_ab03_2.jpg);
+    }
+}
+
+
+    .getstarted{
+        padding: 10px;
+    }
+    .start{
+        padding: 10px;
+        font-size: 1rem;
+    }
+    #start{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 20rem);
+        align-items: flex-end;
+        justify-content: center;
+        gap: 4rem;
+        list-style: none;
+        margin-top: 7rem;
+        padding: 25px;
+        margin: auto;
+    }
+    #span{
+        font-size: 1.2rem;
+        list-style: none;
+        color: white;
+        text-align: center;
+        background: rgba(1, 1, 51, 0.725);
+        border-radius: 10px;
+        padding: 25px;
+        width: 17rem;
+    }
+    #start a{
+        color: blue;
+    }
+    .span{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2rem;
+        color: blue;
+    }
+    span{
+        color: blue;
+        font-size: 2.5rem;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+   .about{
+        margin-top: 5rem;
+        padding: 10px;
+        background: rgb(4, 4, 4);
+    }
+    .icon{
+        width: 95%;
+        float: left;
+    }
+    .top{
+        width: 350px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .more{
+        color: white;
+        float: right;
+        font-size: 1.3rem;
+        width: 100%;
+    }
+    .aboutus{
+        color: rgb(255, 255, 255) ;
+        font-size: 1.3rem;
+        padding: 10px;
+    } 
+    .about_us{
+        color: white;
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+    .aboutus li{
+        list-style: none;
+    }
+
+    .trading{
+        text-align: center;
+        font-size: 1rem;
+        padding: 10px;
+        color: white;
+
+    }
+    #counter{
+        background: url(1_5hks5c7coEa_TvXSLKfu2A.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 90%;
+        color: blue;
+    }
+    .counter_wrapper{
+        background: rgba(0, 0, 255, 0.291);
+        width: 100%;
+        height: 90vh;
+    }
+    .counter{
+        display: block;
+        gap: 1rem;
+    }
+    .num{
+        color: white;
+        font-size: 1.8rem;
+    }
+    .text{
+        color: blue;
+        font-size: .8rem;
+    }
+
+    .trading{
+        text-align: center;
+        font-size: 1.5rem;
+        color: white;
+    }
+    .count{
+        font-size: 1.8rem;
+        color: blue;
+    }
+
+    #container{
+        width: 100%;
+        height: 100vh;
+        background: url(chrt.png);
+        background-size: cover;
+        overflow: hidden;
+        color:rgb(255, 255, 255) ;
+        font-size: 1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .container{
+        background: rgba(0, 0, 255, 0.291);
+        width: 100%;
+        height: 100vh;
+    }
+    .cont{
+        padding: 20px;
+    }
+    .profit{
+        text-align: center;
+        color: rgb(255, 255, 255) ;
+        list-style: none;
+        padding: 20px;
+    }
+
+    .features{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 1rem;
+    }
+    .feat{
+        padding: 10px;
+        color: white;
+        font-size: 1.3rem;
+        list-style: none;
+        text-align:start;
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    #safety{
+        text-align: center;
+        color: white;
+    }
+    .safety{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 1rem;
+    }
+    .safe{
+        padding: 10px;
+        color: white;
+        font-size: 1.1rem;
+        list-style: none;
+        text-align:start;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    /*review*/
+      .slide-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+
+    footer{
+        background: blue;
+    }
+    .foot{
+        position: relative;
+        display:block;
+        padding: 10px;
+    }
+    .footer{
+        width: 20rem;
+        text-align: start;
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+    .list li{
+        display: flex;
+        list-style: none;
+        padding: 10px;
+        font-size: 1.4rem;
+    }
+    .list{
+        padding: 10px;
+        width: 10rem;
+        text-align: center;
+        justify-content: center;
+    }
+    .contact{
+        text-align: center;
+        text-decoration: solid;
+        color: rgb(71, 63, 63) ;
+        font-size: 1.2rem;
+    }
+    .last{
+        border-top: black 2px solid;
+        text-align: center;
+        padding: 20px;
+    }
+}
+@media only screen and (min-width: 587px) {
+
+}

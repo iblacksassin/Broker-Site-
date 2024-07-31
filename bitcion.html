@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Trading Company</title>
+    <link rel="stylesheet" href="crypto.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 class="h1">Eco Trading Company</h1>
+        </div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <ul>
+                <li class="current"><a href="deposit.html">Deposit</a></li>
+                <li><a href="homepage.html">Dashboard</a></li>
+                <li><a href="Ponzy.html">Menu</a></li>
+                <li><a href="invest.html">Invest</a></li>
+                <li><a href="withdraw.html">Withdraw</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="signup.html">Log out</a></li>
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </header>
+
+    <div class="main">
+        <h2>Fund Your Account</h2>
+    </div>
+    <div class="boxs">
+        <p>You are to make payment using your selected payment method.
+           Screenshot and upload the proof of payment.
+        </p>
+     </div>
+    <div class="deposits">
+        
+        <section class="dash">
+            <div class="deposit">
+                <h3>BITCOIN</h3>
+                <p>BITCOIN Address:</p>
+               <div class="copyinp">
+                <input type="text" id="text-3" value="bc1qlmusn9jaz5zacspwrw3cv98kaffeu79uhn2g5n" 
+                placeholder="bc1qlmusn9jaz5zacspwrw3cv98kaffeu79uhn2g5n">
+                <button class="copy" onclick="copy('text-3')">Copy Text</button>
+               </div>
+                <p>Network Type: BTC</p>
+                <p class="box">*Don't have BITCOIN, buy using the link below
+                    (ensure you copy the wallet address above and buy strictly to the address)
+                    <a href="https://changelly.com/buy-crypto" class="btn">Buy BITCOIN</a>
+                </p>
+                <p>Upload proof of Payment (screenshot).</p>
+                <input type="file" name="" id=""> <br>
+                <button class="bttn" id="open-popup-btn1">Submit Payment</button>
+            </div>
+        </section>
+    </div>
+
+    <div class="popup center">
+        <div class="icon">
+            !
+        </div>
+        <div class="title">
+            Pending!!
+        </div>
+        <div class="description">
+            You have deposited succesfully and it's currently proccesing, 
+            deposit would be added to your dashboard shortly.
+            <br> <br>
+                <a class="btttn" href="homepage.html">Done</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright &copy;Eco Trade Company 419</p>
+    </footer>
+    <script src="popup.js"></script>
+</body>
+</html>
