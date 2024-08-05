@@ -327,10 +327,10 @@ footer{
         display: block;
     }
     .plans{
-        padding: 30px;
+        padding: 10px;
+        margin: auto;
     }
     .plan{
-        margin: auto;
         color: white;
         text-align: center;
         border: blue 3px solid;
