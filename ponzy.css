@@ -564,7 +564,7 @@ footer{
  /**media query*/
 @media only screen and (max-width: 967px) {
     header{
-        width: 93%;
+        width: 92%;
         padding: 0 20px;
         position: fixed;
     }
@@ -610,6 +610,7 @@ footer{
     }
     .cap{
         width: 20rem;
+        padding: 10px;
         margin: auto;
         justify-self: center;
     }
