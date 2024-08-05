@@ -458,6 +458,7 @@ span{
         background: rgb(0, 0, 0);
         color: white;
         padding: 20px;
+        margin: auto;
     }
     .currencies{
         background: rgb(12, 12, 12);
@@ -465,7 +466,6 @@ span{
         height: 37vh;
         padding: 10px;
         text-align: start;
-        margin: auto;
     }
     .currencies input{
         width: 17rem;
