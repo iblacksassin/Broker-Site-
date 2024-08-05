@@ -5,6 +5,7 @@ body{
     padding: 0;
     margin:0;
     background:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 /* Header */
 header{
@@ -725,8 +726,8 @@ footer{
     .more{
         color: white;
         float: right;
-        font-size: 1.3rem;
-        width: 100%;
+        font-size: 1.1rem;
+        width: 98%;
     }
     .aboutus{
         color: rgb(255, 255, 255) ;
@@ -863,7 +864,7 @@ footer{
     .footer{
         width: 20rem;
         text-align: start;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         padding: 10px;
     }
     .list li{
