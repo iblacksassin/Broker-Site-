@@ -414,6 +414,9 @@ span{
     .hamburger{
         display: block;
     }
+    #profile{
+        padding: 10px;
+    }
     .profile{
         color: white;
         font-size: .7rem;
